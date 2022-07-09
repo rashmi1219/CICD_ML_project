@@ -37,7 +37,10 @@ HEROKU_APP_NAME :ml-project-deployment1
 python setup.py install
 
 ```
-
+```
+housing_predictor.egg-info file is created by itself as soon as we 
+install setup.py file
+egg file has all the information aboust our custom file
 
 
 

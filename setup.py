@@ -1,12 +1,12 @@
-from setuptools import setup
+from setuptools import setup ,find_packages
 from typing import List
 
 #declaring variables for setup function
 PROJECT_NAME="housing_predictor"
-VERSION="0.0.1"
+VERSION="0.0.2"
 AUTHOR="rashmi"
 DESCRIPTION="this is the first ml project"
-PACKAGES=["housing"] #this has to be in list form
+PACKAGES=find_packages()   #it will return all the packages which has init file.
 REQUIREMENTS_FILE_NAME="requirements.txt"
 
 def get_requirements_list()->List[str]:
