@@ -33,6 +33,11 @@ git command
 HEROKU_EMAIL:
 HEROKU_API_KEY:6a02c0bc-327f-4eec-94a1-5459dae2aa96
 HEROKU_APP_NAME :ml-project-deployment1
+```
+python setup.py install
+
+```
+
 
 
 
