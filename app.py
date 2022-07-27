@@ -11,7 +11,7 @@ def index():
         raise Exception("we are testing custom exception")
     except Exception as e:
         housing = HousingException(e, sys)
-        logging.info(housing.error_message)
+        logging.info(housing.error_message) 
         logging.info("we are testing logging module")
     return "my first ml project"
 if __name__ == "__main__":

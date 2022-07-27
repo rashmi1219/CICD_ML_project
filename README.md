@@ -42,7 +42,11 @@ housing_predictor.egg-info file is created by itself as soon as we
 install setup.py file
 egg file has all the information aboust our custom file
 
+install ipynb kernal
+```
+pip install ipykernel
 
+```
 
 
    
